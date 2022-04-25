@@ -9,9 +9,7 @@
 /* Global */
 
 body{
-    font-family: 'Roboto', sans-serif, 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     color: #757575;
     background-color: #FFFFFF;
@@ -38,6 +36,7 @@ body{
 }
 
 .mail, .phone-number{
+    font-weight: 500;
     color: #757575;
 }
 
@@ -50,11 +49,6 @@ body{
 
 
 .first-title{
-    position: absolute;
-    width: 696px;
-    height: 120px;
-    left: 452px;
-    top: 280px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;  
@@ -73,11 +67,7 @@ body{
 }
 
 .button{
-    position: absolute;
-    width: 200px;
-    height: 50px;
-    left: 700px;
-    top: 430px;
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     margin-top: 30px;
@@ -137,17 +127,17 @@ body{
     background: #2F303A;
 }
 
+.footer-address{
+    font-style: normal;
+}
+
 .link-footer-map{
-    font-weight: 400;
     line-height: 1.71;
     color: #FFFFFF;
     text-decoration: none;
-    font-style:normal;
 }
 
 .link-footer{
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     color: rgba(255, 255, 255, 0.6);
@@ -189,6 +179,7 @@ body{
     border: none;
     border-radius: 4px;
     background: #F5F4FA;
+    font-family: inherit;
 }
 
 .portfolio-button-filter:hover,
