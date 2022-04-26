@@ -59,11 +59,7 @@ body{
 }
 
 .first-section{
-    width: 1600px;
-    height: 600px;
-    left: 0;
-    top: 80px;
-    background: #2F303A;
+    background: #2F303A
 }
 
 .button{
@@ -73,10 +69,11 @@ body{
     margin-top: 30px;
     padding: 0 30px;
     cursor: pointer;
+    background-color: #2196F3;
+    color: #FFFFFF;
 }
 
 .button:hover{
-    color: #FFFFFF;
     background-color: #188CE8;
 }
 
@@ -110,9 +107,6 @@ body{
     line-height: 0.84;
 }
 
-.our-team-cards{
-    background-color: #F5F4FA;
-}
 
 /* footer */
 
@@ -150,9 +144,11 @@ body{
 }
 
 .link-footer:hover,
-.link-footer:focus{
+.link-footer:focus,
+.active{
   color:  #2196F3
 }
+
 
 /*  PORTFOLIO  */
 
